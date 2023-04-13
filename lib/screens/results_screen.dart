@@ -38,6 +38,7 @@ class ResultsScreen extends StatelessWidget {
         return data['user_answer'] == data['correct_answer'];
       },
     ).length;
+
     return SizedBox(
       width: double.infinity,
       child: Container(

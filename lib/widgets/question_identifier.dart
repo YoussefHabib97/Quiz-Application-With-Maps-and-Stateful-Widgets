@@ -12,6 +12,7 @@ class QuestionIdentifier extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final int questionNumber = questionIndex + 1;
+
     return Container(
       width: 32,
       height: 32,

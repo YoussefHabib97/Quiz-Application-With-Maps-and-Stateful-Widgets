@@ -41,12 +41,14 @@ class SummaryItem extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 8),
-                Text(
-                  "Correct answer: ${itemData['correct_answer'] as String}",
-                  style: const TextStyle(
-                    color: Colors.green,
-                  ),
-                ),
+                isCorrectAnswer
+                    ? const SizedBox()
+                    : Text(
+                        "Correct answer: ${itemData['correct_answer'] as String}",
+                        style: const TextStyle(
+                          color: Colors.green,
+                        ),
+                      ),
                 const SizedBox(height: 24),
               ],
             ),

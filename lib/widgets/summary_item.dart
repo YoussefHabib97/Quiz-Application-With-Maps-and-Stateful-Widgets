@@ -11,6 +11,7 @@ class SummaryItem extends StatelessWidget {
   Widget build(BuildContext context) {
     final bool isCorrectAnswer =
         itemData['user_answer'] == itemData['correct_answer'];
+
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: Row(

@@ -13,8 +13,8 @@ class QuestionIdentifier extends StatelessWidget {
   Widget build(BuildContext context) {
     final int questionNumber = questionIndex + 1;
     return Container(
-      width: 30,
-      height: 30,
+      width: 32,
+      height: 32,
       alignment: Alignment.center,
       decoration: BoxDecoration(
         color: isCorrectAnswer ? Colors.green : Colors.pink,

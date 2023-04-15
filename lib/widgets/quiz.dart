@@ -76,6 +76,7 @@ class _QuizState extends State<Quiz> {
           child: screenWidget,
         ),
       ),
+      title: "Flutter Quiz",
     );
   }
 }
